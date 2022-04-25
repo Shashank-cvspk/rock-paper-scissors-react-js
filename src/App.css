@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  background-color: #223a5f;
+  height: 100vh;
+  background-size: cover;
+}
+.banner {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 5px, white;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  color: white;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  height: 300px;
+  width: 300px;
+}
+.first-row {
+  display: flex;
+  justify-content: space-around;
+}
+.sec-row {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+}
